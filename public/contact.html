@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Crete+Round&family=DM+Serif+Text:ital@1&family=Heebo:wght@700;900&family=Istok+Web:wght@400;700&family=Lato&family=Libre+Franklin:wght@300;500&family=Manrope&family=Open+Sans:ital,wght@1,800&family=PT+Sans+Narrow:wght@700&family=Poppins:wght@200;400;600&family=Quicksand&family=Roboto+Condensed:wght@700&family=Varela+Round&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="text-main-black py-6 lg:py-12 bg-transparent font-poppins">
+      <div
+        class="lg:container mx-auto flex items-center justify-center lg:justify-between space-x-8 lg:space-x-16"
+      >
+        <a
+          href="#"
+          class="lg:text-4xl md:pl-0 text-4xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-black to-blue-300"
+          >Halit.dev</a
+        >
+        <nav class="flex justify-between font-bold">
+          <div
+            class="flex items-center text-sm lg:text-lg space-x-3 lg:space-x-6"
+          >
+            <a
+              class="hover:text-main-hover-black duration-1000"
+              href="index.html"
+              >Home</a
+            >
+            <a class="hover:text-main-hover-black duration-1000" href="#"
+              >About</a
+            >
+            <a
+              class="hover:text-main-hover-black duration-1000"
+              href="projects.html"
+              >Projects</a
+            >
+            <a
+              class="hover:text-main-hover-black duration-1000"
+              href="contact.html"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--Contact İnformations-->
+    <section class="text-main-black py-6 lg:py-20 bg-transparent font-poppins">
+      <div class="lg:w-600 mx-auto flex flex-wrap justify-around items-start">
+        <div class="flex flex-col basis-1/2 justify-around pt-3">
+          <div class="py-5 flex">
+            <div class="flex items-center">
+              <i class="fa-solid fa-house text-2xl text-blue-600"></i>
+            </div>
+            <div class="ml-5">
+              <p class="font-semibold">Istanbul, Avcılar</p>
+              <p>My latest address</p>
+            </div>
+          </div>
+          <div class="py-5 flex">
+            <div class="flex items-center">
+              <i class="fa-solid fa-phone text-2xl text-blue-600"></i>
+            </div>
+            <div class="ml-5">
+              <p class="font-semibold">+1 415 555 2530</p>
+              <p>You can call me anytime!</p>
+            </div>
+          </div>
+          <div class="py-5 flex">
+            <div class="flex items-center">
+              <i class="fa-solid fa-envelope text-2xl text-blue-600"></i>
+            </div>
+            <div class="ml-5">
+              <p class="font-semibold">support@company.com</p>
+              <p>Contact with e-mail!</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col basis-1/2 justify-around pt-3">
+          <form>
+            <div class="">
+              <input
+                type="text"
+                class="py-2 px-2 border-solid border-2 border-blue-600 w-1/2"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <input
+                type="email"
+                class="py-2 px-2 border-solid border-2 border-blue-600 w-1/2"
+                id="email"
+                aria-describedby="emailHelp"
+                placeholder="Enter email address"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <input
+                type="text"
+                id="subject"
+                class="py-2 px-2 border-solid border-2 border-blue-600 w-1/2"
+                placeholder="Enter your subject"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                name="message"
+                id="message"
+                class="py-2 px-2 border-solid border-2 border-blue-600 w-1/2"
+                placeholder="Enter your message"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="w-44 font-semibold py-4 mt-10 text-center bg-blue-600 text-white border-solid border-2 border-blue-600 hover:bg-transparent hover:text-blue-600 duration-500 text-sm"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="text-white bg-black py-6 lg:py-12 w-full font-poppins">
+      <div class="lg:w-600 mx-auto flex items-start justify-between">
+        <p class="font-bold">Copyright©2023. All rights are reserved</p>
+        <div class="flex space-x-6">
+          <a href="#" target="_blank"
+            ><i class="fa-brands fa-linkedin text-2xl"></i
+          ></a>
+          <a href="#" target="_blank"
+            ><i class="fa-brands fa-github text-2xl"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
